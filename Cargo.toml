@@ -30,7 +30,7 @@ core2 = "0.4.0"
 xz= "0.1.0"
 
 [target.'cfg(all(any(target_arch = "x86_64", target_arch = "aarch64"), target_env = "musl"))'.dependencies]
-tikv-jemallocator = "0.5.4"
+tikv-jemallocator = "0.6.0"
 
 [features]
 default = ["launcher", "daemon"]
